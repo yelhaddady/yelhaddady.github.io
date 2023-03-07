@@ -1,0 +1,51 @@
+/* selecteur de balise */
+p, h1{
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* selecteur de pseudo classe */
+a:hover{
+    font-size: 50px;
+}
+
+/* selecteur de classe */
+#monTitre {
+    color: blue;
+}
+
+/* selecteur d'id */
+.maListe {
+    font-size: 50px;
+}
+
+/* selecteur d'attribut */
+img[src]{
+    height: 50px;
+}
+
+/* selecteur de pseudo élément */
+p::first-line{
+    color: green;
+}
+
+/* selecteur descendant */
+li li {
+    list-style-type: circle
+}
+
+/* selecteur d'enfant */
+div > span {
+    background-color: blue;
+}
+
+/*Sélecteur de frère adjacent*/
+img + p {
+    background-color: red;
+}
+
+/*Sélecteur de frère adjacent*/
+ul ~ p {
+    background-color: orange;
+}
